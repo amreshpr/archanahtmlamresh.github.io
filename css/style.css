@@ -1,0 +1,235 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+#main-area{
+	width: 980px;
+	height: auto;
+	margin: 0px auto;
+}
+
+header{
+	width: 980px;
+	height: 143px;
+	float: left;
+}
+
+hgroup{
+	width: 290px;
+	height: auto;
+	float: left;
+	padding-top: 45px;
+}
+
+nav{
+	width:690px;
+	height: auto;
+	float: left;
+	padding-top: 75px;
+}
+
+nav ul li {
+	 float: left;
+	 border-left: 2px  solid #000;
+}
+
+nav ul li a{
+	font-size: 16px;
+	font-family: "Arial";
+	color: #000;
+	padding: 10px 20px 25px 20px;
+    background: url(../images/menu-bg.png) no-repeat;
+	background-size: 100% 100%;
+    background-position: 0px -100px;
+    transition: 0.5s;
+
+}
+
+nav ul li:first-child{
+	border-left: none;
+}
+
+nav ul li a:hover,nav ul li a.active{
+	background-position: 0 0 ;
+}
+
+section{
+	width: 980px;
+	height: auto;
+	float: left;
+}
+
+aside{
+	width: 728px;
+	height: auto;
+	float: left;
+}
+
+content{
+	width: 696px;
+	height:610px;
+	float: left;
+	border: 2px solid #000;
+	border-radius: 10px;
+	margin-top: 25PX;
+}
+content h1{
+	font-size: 20px;
+	font-family: "Myriad Pro";
+	color: #fff;
+	background: linear-gradient(#000,#a3a2a2);
+	line-height: 51px;
+	padding-left:19px;
+}
+
+content h2{
+	font-size: 15px;
+	font-family: "Myriad Pro";
+	color: #000;
+	padding: 15px 0px 20px 19px;
+}
+
+content figure{
+	padding-left: 19px;
+}
+
+content p{
+	font-size: 13px;
+	font-family: "Myriad Pro";
+	color: #000;
+	padding: 14px 10px 0px 19px;
+}
+
+content a{
+	font-size: 13px;
+	font-family: myriad Pro;
+	color: #000;
+	float: right;
+	padding: 25px 20px 0px 0px;
+}
+
+article{
+	width: 250px;
+	height: auto;
+	float: left;
+}
+
+article input{
+	width: 70%;
+	height: 38px;
+	float: left;
+	border: 2px solid #000;
+	margin-top: 25px;
+	padding-left: 15px;
+	border-right: none;
+	outline: none;
+}
+
+article input[type="submit"]{
+	width: 20%;
+	height: 42px;
+	background: #50deda url(../images/submit.png)center no-repeat;
+	border: 2px solid #000;
+	border-left: none;
+	font-size: 0px;
+
+}
+
+article h1{
+	font-size: 24px;
+	font-family: "Myriad Pro";
+	color: #000;
+	line-height: 70px;
+}
+
+article ul li{
+	margin-top: 20px;
+}
+
+article ul li a{
+	font-size: 16px;
+	font-family: "Arial";
+	color: #000;
+	background: url(../images/arrow-1.png)left no-repeat;
+	padding: 13px 0px 10px 25px;
+	display: block;
+}
+
+article ul li a:hover{
+	background: url(../images/arrow-2.png) right no-repeat;
+}
+
+
+article h2{
+	font-size: 24px;
+	font-family: "Arial";
+	color: #000;
+	margin-top: 20px;
+
+}
+
+article h3{
+	font-size: 18px;
+	font-family: "Arial";
+	color: #000;
+	margin-top: 20px;
+	font-weight: lighter;
+}
+
+article p{
+	font-size: 13px;
+	font-family: "Arial";
+	color: #000; 
+	padding-top: 20px;
+	text-align: justify;
+}
+
+footer{
+	width: 100%;
+	height: 300px;
+	float: left;background: #000;
+	margin-top: 40px;
+}
+
+.gallery{
+	width: 470px;
+	height:215px;
+	float: left; 
+}
+
+ .gallery h1{	
+ 	font-size: 24px;
+	font-family: myriad Pro;
+	color: #fff;
+	padding: 20px 0px 20px 0px;	
+
+}
+.gallery ul li{
+	float: left;
+	margin:2px 1px;
+}
+
+
+.services{
+	width: 235px;
+	height: auto;
+	float: left;
+	margin-left: 15px;
+
+}
+.services h1{
+	font-size: 24px;
+	font-family: arial;
+	color:#aeaeae;
+	padding: 20px 0px 15px 0px;
+	
+}
